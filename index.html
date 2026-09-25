@@ -12,13 +12,15 @@
     />
     <link rel="stylesheet" href="assets/app.css" />
   </head>
-  <body>
+  <body class="bg-paper font-sans">
     <!-- Nothing here has a class yet. Colour, sizing, spacing, and type all
          get added by you, one utility class at a time. -->
-    <main>
-      <ul>
-        <li>
-          <svg
+    <main class="py-[clamp(2rem,1.5rem+2vw,3.5rem)]">
+      <ul class="list-none border-t-(length:--rule) border-ink pl-0">
+        <li
+          class="border-b-(length:--rule) border-ink bg-lime p-8 text-center text-on-light"
+        >
+          <svg class="mx-auto mb-4 block h-14 w-14"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -87,7 +89,7 @@
         </li>
       </ul>
     </main>
-    <footer>
+    <footer">
       <div>
         <p>
           Compass is not an emergency or crisis service. If you need urgent
